@@ -1347,7 +1347,6 @@ Validated products for getproduct call
 [2025-07-01T08:14:26.034Z] Validate user is able to delete products -- Test Passed
 [2025-07-01T08:14:26.049Z] {}
 [2025-07-01T10:42:17.089Z] Validated login with correct email & password
-[2025-07-01T10:42:17.441Z] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydW5vQGVtYWlsLmNvbSIsInBhc3N3b3JkIjoiYnJ1bm8iLCJpYXQiOjE3NTEzNjY1MzUsImV4cCI6MTc1MTM3MDEzNX0.Rpb8QwRhgrsXE9yrPxn2G9uxZkjZYW6aAURRnn-G__I
 [2025-07-01T10:42:18.471Z] 
 Validated products for getproduct call
 
