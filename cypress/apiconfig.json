@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://mobilestoreapi.onrender.com",
+    "endpoints": {
+      "products": "/products",
+      "login": "/auth/login"
+    }
+  }

@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-01T06:19:45.791Z",
+    "end": "2025-07-01T06:19:48.910Z",
+    "duration": 3119,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b51e67f7-aa1d-40f8-8c09-b98846669e4d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\databaseTest.cy.js",
+      "file": "cypress\\e2e\\databaseTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3ce8b74f-1a0a-4fe9-b720-f7b80866a5b1",
+          "title": "Database Query",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "query for user smith93",
+              "fullTitle": "Database Query query for user smith93",
+              "timedOut": null,
+              "duration": 2989,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.task('queryDb', sqlquery).then(result => {\n  result.forEach((row, index) => {\n    cy.log(`Row ${index + 1}: ${JSON.stringify(row)}`);\n  });\n  //expect(result[0].first_name).to.equal('rogers');\n});",
+              "err": {},
+              "uuid": "25e81fcc-74e6-4ffd-a622-6a6259f0b15e",
+              "parentUUID": "3ce8b74f-1a0a-4fe9-b720-f7b80866a5b1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "25e81fcc-74e6-4ffd-a622-6a6259f0b15e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2989,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/TestReport",
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
